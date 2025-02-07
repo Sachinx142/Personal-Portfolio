@@ -1,0 +1,206 @@
+
+.navbar-nav {
+    justify-content: center;
+  }
+  
+  /* Link styling */
+  .nav-link {
+    color: #ffffff; 
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 1.1rem;
+  }
+  
+  /* Hover effect */
+  .nav-link:hover {
+    color: #f8d210; 
+    transform: scale(1.1); 
+  }
+  
+  /* Active link */
+  .nav-link.active {
+    font-weight: bold;
+    color: #f8d210;
+  }
+/* Hero Section */
+.hero-section {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('https://img.freepik.com/free-photo/flat-lay-blue-monday-paper-with-copy-space_23-2148756188.jpg'); /* Replace with your background image */
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Hero Content */
+.hero-content {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Avatar */
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Hero Title */
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Hero Subtitle */
+.hero-subtitle {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #f8d210;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Hero Description */
+.hero-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin: 0 auto 30px;
+  max-width: 600px;
+}
+
+/* Call-to-Action Buttons */
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #45a049;
+}
+
+.btn-outline-light {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Fade In Animation for Text */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+  }
+}
+
+/* About Stytling */
+.about-section {
+  background: #f8f9fa;
+}
+
+.section-title {
+  color: #343a40;
+}
+
+.card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* footer */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 40px 0;
+}
+
+.social-links a {
+  color: #ecf0f1;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.quick-links a {
+  color: #ecf0f1;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.newsletter-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.newsletter-form button {
+  width: 100%;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #7f8c8d;
+  padding-top: 20px;
+  text-align: center;
+}
