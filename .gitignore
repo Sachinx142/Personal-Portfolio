@@ -18,7 +18,7 @@ dist-ssr
 
 # Ignore environment variables
 /backend/.env
-/.env
+.env
 
 # Other common ignores
 ./config/db.js
