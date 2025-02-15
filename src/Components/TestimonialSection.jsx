@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 
 const testimonials = [
@@ -27,11 +27,11 @@ const TestimonialSection = () => {
         <div className="row">
           {testimonials.map((testimonial, index) => (
             <div className="col-md-4 mb-4" key={index}>
-              <div className="card h-100">
+              <div className="card h-100 shadow border-0" style={{ backgroundColor: "#f8f9fa" }}>
                 <div className="card-body d-flex flex-column justify-content-center align-items-center">
-                  <p className="testimonial-feedback text-center">"{testimonial.feedback}"</p>
-                  <h5 className="testimonial-name mt-3">{testimonial.name}</h5>
-                  <p className="testimonial-position mt-2">{testimonial.position}</p>
+                  <p className="testimonial-feedback text-center text-dark">"{testimonial.feedback}"</p>
+                  <h5 className="testimonial-name mt-3 text-primary">{testimonial.name}</h5>
+                  <p className="testimonial-position mt-2 text-secondary">{testimonial.position}</p>
                 </div>
               </div>
             </div>
@@ -43,3 +43,11 @@ const TestimonialSection = () => {
 };
 
 export default TestimonialSection;
+
+// Package.json dependencies
+// {
+//   "dependencies": {
+//     "react": "^18.2.0",
+//     "bootstrap": "^5.3.0"
+//   }
+// }
