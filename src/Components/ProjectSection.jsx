@@ -1,12 +1,14 @@
 import React from "react";
 
 const projects = [
-  { title: "Project 1", image: "/assets/img/project-1.png", description: "Description of Project 1." },
-  { title: "Project 2", image: "/assets/img/project-2.png", description: "Description of Project 2." },
-  { title: "Project 3", image: "/assets/img/project-3.png", description: "Description of Project 3." },
-  { title: "Project 4", image: "/assets/img/project-4.png", description: "Description of Project 4." },
-  { title: "Project 5", image: "/assets/img/CRUD.png", description: "Description of Project 5." }
+  { title: "Chat App", image: "/assets/img/project-1.png", description: "A real-time chat application with instant messaging and user authentication." },
+  { title: "E-Commerce Platform", image: "/assets/img/project-2.png", description: "A fully functional e-commerce platform with product listings, cart, and checkout." },
+  { title: "News App", image: "/assets/img/project-3.png", description: "A dynamic news application fetching real-time news from various sources." },
+  { title: "Food Delivery App", image: "/assets/img/project-4.png", description: "An intuitive food delivery app with restaurant listings and order tracking." },
+  { title: "CRUD App", image: "/assets/img/CRUD.png", description: "A simple CRUD application for managing data with Create, Read, Update, and Delete operations." },
+  { title: "Blog App", image: "/assets/img/Blog-App.png", description: "A blogging platform where users can create, edit, and publish blog posts." },
 ];
+
 
 const ProjectSection = () => {
   return (
